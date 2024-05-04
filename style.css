@@ -246,3 +246,74 @@ button:focus {
 .text-justify {
     text-align: justify;
 }
+
+@media only screen and (max-width: 600px) {
+    /* Styles for small devices (e.g., smartphones) */
+    body {
+        padding: 0; /* Remove padding to maximize screen space */
+    }
+    
+    .nav-left {
+        flex-direction: column; /* Stack navigation vertically */
+        align-items: center; /* Center align items */
+        width: 150%; 
+    }
+
+    .logo {
+        padding: 10px; /* Increase padding for better spacing */
+    }
+
+    .horizontal-list {
+        padding-left: 0; /* Remove left padding for the navigation menu */
+        width: 100%; /* Set width to 100% for full-width navigation */
+        justify-content: center; /* Center align navigation items */
+    }
+
+    .nav-menu li {
+        margin: 0 5px; /* Adjust margin for better spacing between navigation items */
+    }
+
+
+
+    .para-text {
+        text-align: justify; /* Justify text for better readability */
+    }
+
+    #contact {
+        width: 150%;
+    }
+
+    #contact-form,
+    #my-details-container {
+        width: 100%; /* Set width to 100% for full-width contact form and details */
+        margin-left: 0; /* Remove left margin to center contact form and details */
+    }
+
+    #contact-form input,
+    #contact-form textarea {
+        width: 60%; /* Adjust input and textarea width for better responsiveness */
+    }
+
+    #contact-form button[type="submit"] {
+        margin-left: 0; /* Remove left margin to center submit button */
+    }
+
+    .my-details-info-container {
+        text-align: center; /* Center align contact details */
+    }
+
+    nav {
+        padding: 10px 0; /* Add padding to the navigation for better spacing */
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+    nav ul {
+        justify-content: space-around; /* Distribute navigation items evenly */
+    }
+
+    #contact {
+        padding: 20px; /* Increase padding for better spacing */
+    }
+}
