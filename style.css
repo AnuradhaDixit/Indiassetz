@@ -256,7 +256,7 @@ button:focus {
     .nav-left {
         flex-direction: column; /* Stack navigation vertically */
         align-items: center; /* Center align items */
-        width: 150%; 
+        width: 170%; 
     }
 
     .logo {
@@ -280,7 +280,7 @@ button:focus {
     }
 
     #contact {
-        width: 150%;
+        width: 170%;
     }
 
     #contact-form,
